@@ -4,7 +4,7 @@
 
 
 ## About
-Velflix is a Laravel E commerce Web application using CSS([CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [Javascript](https://devdocs.io/javascript/), [Laravel](https://laravel.com/), [Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)).
+Zuccedd is a Laravel E commerce Web application using CSS([CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [Javascript](https://devdocs.io/javascript/), [Laravel-PHP](https://laravel.com/), [Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)).
 
 > **Note**
 > Work in Progress
@@ -20,9 +20,7 @@ Velflix is a Laravel E commerce Web application using CSS([CSS](https://develope
 <a name="screenshots"></a>
 ## Screenshots
 
-
-
-
+()
 
 <a name="requirements"></a>
 ## Requirements
