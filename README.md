@@ -57,3 +57,54 @@ Here is how you can run the project locally:
     ```sh
     cp .env.example .env
     ```
+
+
+1. Create database `--` (you can change database name)
+2. Create account and get an API key. Make sure to copy `API Read Access Token (v4 auth)`.
+3. Go to `.env` file 
+    - set database credentials (`DB_DATABASE=`, `DB_USERNAME=root`, `DB_PASSWORD=`)
+    - paste `TMDB_TOKEN=(your API key)` 
+    > Make sure to follow your database username and password
+
+1. Install PHP dependencies 
+    ```sh
+    composer install
+    ```
+
+1. Generate key 
+    ```sh
+    php artisan key:generate
+    ```
+1. Run migration
+    ```
+    php artisan migrate
+    ```
+    
+1. Run seeder
+    ```
+    php artisan db:seed
+    ```
+    
+    
+1. Visit `localhost:8000` in your favorite browser.     
+
+    > Make sure to follow your Laravel local Development Environment.
+
+<a name="testing"></a>
+## Testing
+
+> **Warning**
+> Every time you run testing, you should run `php artisan db:seed` first
+
+```sh
+    ./vendor/bin/pest
+```
+<a name="contributing"></a>
+## Contributing
+Pull requests are welcome.
+
+<a name="license"></a>
+## License
+
+
+Zuccedd is an open-sourced software licensed under [the MIT license](https://github.com/sathviksai002/e-commerce/blob/main/LICENSE.md)
