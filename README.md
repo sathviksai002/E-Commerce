@@ -40,3 +40,20 @@ Package | Version
 
 > **Warning**
 > Make sure to follow the requirements first.
+
+
+Here is how you can run the project locally:
+1. Clone this repo
+    ```sh
+    git clone https://github.com/Jaideep2002/e-commerce
+    ```
+
+1. Go into the project root directory
+    ```sh
+    cd Jaideep2002
+    ```
+
+1. Copy .env.example file to .env file
+    ```sh
+    cp .env.example .env
+    ```
